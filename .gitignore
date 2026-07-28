@@ -364,9 +364,9 @@ FodyWeavers.xsd
 
 # Allow committing .exe files in repository root. Add more specific negation rules
 # if your .exe lives inside ignored directories like bin/ or obj/.
-# !/*.exe
+!/*.exe
 
 # Examples to un-ignore a specific exe inside ignored folders (uncomment and edit path):
 !/bin/
-# !/bin/Release/
-# !/bin/Release/MyApp.exe
+!/bin/Release/
+!/bin/Release/MyApp.exe
